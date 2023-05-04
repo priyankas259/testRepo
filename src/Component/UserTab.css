@@ -1,0 +1,38 @@
+.pagination{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.pagination a{
+    padding: 10px;
+    border: 1px solid #47a7de;
+    color: #47a7de;
+}
+.pagination_link{
+    font-weight: bold;
+}
+
+.pagination_link--active a{
+    color: #47a7de;
+    background: #47a7de;
+}
+.pagination_link--disabled a{
+    color: rgb(198, 197, 202);
+    border: 1px solid rgb(198, 197, 202);
+}
+
+img{
+    margin-top: 30px;
+}
+
+
+@media only screen and (max-width: 990px) {
+    td{
+        display: flex;
+        flex-direction: column;
+    }
+}
